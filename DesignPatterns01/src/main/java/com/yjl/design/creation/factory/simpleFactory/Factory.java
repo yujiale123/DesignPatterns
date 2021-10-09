@@ -7,6 +7,7 @@ package com.yjl.design.creation.factory.simpleFactory;
  * <p>
  * 简单工厂
  * 配置数量小
+ * 违背开放原则，并且扩展不易，每次都要写大量的ifelse
  */
 public class Factory {
     public AbstractCar newCar(String type) {
