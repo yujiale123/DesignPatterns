@@ -1,5 +1,7 @@
 package com.yjl.design.creation.factory.factoryMethod;
 
+import com.yjl.design.creation.factory.abstractFactory.AbstractCar;
+
 /**
  * @program: DesignPatterns
  * @author: yjl
@@ -11,7 +13,7 @@ public interface AbstractCarFactory {
      * 创建车的方法
      * @return
      */
-    public AbstractCar  newCar();
+    public AbstractCar newCar();
 
     /**
      * 创建其他方法

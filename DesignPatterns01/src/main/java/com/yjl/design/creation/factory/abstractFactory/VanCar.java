@@ -1,6 +1,4 @@
-package com.yjl.design.creation.factory.factoryMethod;
-
-import com.yjl.design.creation.factory.abstractFactory.AbstractCar;
+package com.yjl.design.creation.factory.abstractFactory;
 
 /**
  * @program: DesignPatterns
