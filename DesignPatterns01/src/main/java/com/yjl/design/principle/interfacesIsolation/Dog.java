@@ -5,12 +5,14 @@ package com.yjl.design.principle.interfacesIsolation;
  * @author: yjl
  * @created: 2022/01/18
  */
-public interface IAnimal {
+public class Dog  implements  IEat,ISleep{
+    @Override
+    public void eat() {
 
-    void eat();
+    }
 
-    void fly();
+    @Override
+    public void sleep() {
 
-    void sleep();
-
+    }
 }

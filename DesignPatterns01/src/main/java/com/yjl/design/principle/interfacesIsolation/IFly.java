@@ -5,12 +5,6 @@ package com.yjl.design.principle.interfacesIsolation;
  * @author: yjl
  * @created: 2022/01/18
  */
-public interface IAnimal {
-
-    void eat();
-
+public interface IFly {
     void fly();
-
-    void sleep();
-
 }
