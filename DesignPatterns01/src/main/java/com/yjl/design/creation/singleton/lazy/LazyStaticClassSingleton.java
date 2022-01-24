@@ -8,7 +8,9 @@ package com.yjl.design.creation.singleton.lazy;
 public class LazyStaticClassSingleton {
 
     private LazyStaticClassSingleton() {
-
+        if (LazyHolder.INSTANCE != null){
+            throw new RuntimeException("违反了单例模式");
+        }
     }
 
     private static LazyStaticClassSingleton getInstance() {
