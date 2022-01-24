@@ -23,6 +23,4 @@ public abstract class AbstractBuilder {
     public Phone getProduct() {
         return phone;
     }
-
-
 }

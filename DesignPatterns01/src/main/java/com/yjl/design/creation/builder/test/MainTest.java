@@ -8,10 +8,10 @@ package com.yjl.design.creation.builder.test;
 public class MainTest {
     public static void main(String[] args) {
         ComputerBuilder computerBuilder = new ComputerBuilder();
-        computerBuilder.installDisplayed("显示器");
         computerBuilder.installMainUnit("主机");
         computerBuilder.installMouse("鼠标");
         computerBuilder.installKeyboard("键盘");
+        computerBuilder.installDisplayed("显示器");
         Computer computer = computerBuilder.getComputer();
         System.out.println(computer);
     }

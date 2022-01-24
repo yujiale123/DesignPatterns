@@ -13,6 +13,8 @@ public class MainTest {
                 .customDisk("512G")
                 .customCamera("索尼").getProduct();
 
+        new StringBuffer();
+
         System.out.println(product);
 
     }
