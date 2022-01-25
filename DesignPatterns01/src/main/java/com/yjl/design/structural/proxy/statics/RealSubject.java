@@ -7,9 +7,9 @@ package com.yjl.design.structural.proxy.statics;
  *
  * subject  主体
  */
-public class LeiTikTok implements ManTikTok {
+public class RealSubject implements ISubject {
     @Override
-    public void tikTok() {
-        System.out.println("人，tiTok......");
+    public void request() {
+        System.out.println("人，request......");
     }
 }

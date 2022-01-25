@@ -11,7 +11,7 @@ package com.yjl.design.structural.proxy.statics;
  */
 public class MainTest {
     public static void main(String[] args) {
-        TikTokProxy tikTokProxy = new TikTokProxy(new LeiTikTok());
-        tikTokProxy.tikTok();
+        TikTokProxy tikTokProxy = new TikTokProxy(new RealSubject());
+        tikTokProxy.request();
     }
 }

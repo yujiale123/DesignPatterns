@@ -5,6 +5,6 @@ package com.yjl.design.structural.proxy.statics;
  * @author: yjl
  * @created: 2021/10/15
  */
-public interface ManTikTok {
-    void tikTok();
+public interface ISubject {
+    void request();
 }
