@@ -43,12 +43,12 @@ public class JdkTikTokProxy<T> implements InvocationHandler {
     }
 
     /**
-     * 定义目标方法的拦截逻辑
+     * 执行被代理对象的任何接口方法都会经过该方法
      *
-     * @param proxy
-     * @param method
-     * @param args
-     * @return
+     * @param proxy  代理对象的引用
+     * @param method 当前执行的方法
+     * @param args  当前执行方法所需的参数
+     * @return  和被代理对象有相同返回值
      * @throws Throwable
      */
     @Override
