@@ -1,4 +1,4 @@
-package com.yjl.design.structural.Flyweight;
+package com.yjl.design.structural.flyweight;
 
 import java.util.HashMap;
 import java.util.Map;
