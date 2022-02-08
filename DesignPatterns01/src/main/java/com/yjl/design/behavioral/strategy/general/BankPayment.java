@@ -7,11 +7,7 @@ package com.yjl.design.behavioral.strategy.general;
  */
 public class BankPayment implements Payment {
     @Override
-    public void getPayType(Object type) {
-        if (type.equals(2)) {
-            System.out.println("银行卡支付");
-        }
+    public void getPayType() {
+        System.out.println("银行卡支付");
     }
-
-
 }

@@ -8,9 +8,7 @@ package com.yjl.design.behavioral.strategy.general;
  */
 public class WxPayment implements Payment {
     @Override
-    public void getPayType(Object type) {
-        if (type.equals(1)){
-            System.out.println("微信支付");
-        }
+    public void getPayType() {
+        System.out.println("微信支付");
     }
 }

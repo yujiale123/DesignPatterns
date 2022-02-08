@@ -9,6 +9,6 @@ public class MainTest {
 
     public static void main(String[] args) {
         PayActivity<Integer> integerPayActivity = new PayActivity<Integer>(new WxPayment());
-        integerPayActivity.execute(1);
+        integerPayActivity.execute();
     }
 }

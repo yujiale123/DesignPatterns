@@ -14,5 +14,5 @@ public interface Payment<T> {
      *
      * @return 响应，支付方式
      */
-    void getPayType(T type);
+    void getPayType();
 }

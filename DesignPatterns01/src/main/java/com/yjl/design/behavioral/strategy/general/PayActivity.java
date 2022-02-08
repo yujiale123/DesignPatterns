@@ -13,7 +13,7 @@ public class PayActivity<T> {
         this.payment = payment;
     }
 
-    public void execute(T type) {
-        payment.getPayType(type);
+    public void execute() {
+        payment.getPayType();
     }
 }
