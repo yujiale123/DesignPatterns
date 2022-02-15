@@ -8,8 +8,6 @@ package com.yjl.design.behavioral.mediator;
  * 中介者模式就是把网状的模式变成*状的模式
  */
 public class ControlTower {
-
-
     private boolean canDo = true;
 
     public void acceptRequest(Captain captain, String action) {

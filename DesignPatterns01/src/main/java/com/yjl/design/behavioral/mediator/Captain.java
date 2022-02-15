@@ -7,7 +7,6 @@ package com.yjl.design.behavioral.mediator;
  */
 public abstract class Captain {
 
-
     abstract void fly();
 
     abstract void land();
