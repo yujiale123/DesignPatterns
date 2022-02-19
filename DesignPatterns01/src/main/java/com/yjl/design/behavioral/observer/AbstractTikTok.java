@@ -10,6 +10,4 @@ public abstract class AbstractTikTok {
     abstract  void addFans(AbstractFans abstractFans);
 
     abstract void notifyFans(String msg);
-
-
 }
